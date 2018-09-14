@@ -8,21 +8,44 @@ body{
   padding-right: 50px;
   border-right: 50px solid white;
   border-left: 50px solid white;
-  justify-content:center;
-  font-size: x-large;
+  align-content: center;
+  font-size: xx-large;
+  color:white;
+  display: flex;
+  overflow:auto;
+}
+.overlay{
+  justify-content: center;
+}
+nav>ul{
+  /*float: right;*/
+  justify-content: right;positon: relative;
+  left:80%;
 }
 nav>ul>li{
   display: inline-block;
-  text-align-last: right;
-  padding: 20px;
+  padding: 10px lime;
   border:3px solid yellow;
-  border-radius: 0.8%;
+}
+
+nav>ul>li>a{
+  color:pink;
+  text-decoration: none;
+}
+nav>ul>li>a:hover{
+  background-color: lime;
+}
+
+.banner{
+  position: relative;
+  left: 46%;
+  width: auto;
+  height: 100%;
 }
 
 h1{
   text-align: center;
-  font-size: xx-large;
-  text-decoration-color: underline 3px solid yellow;
+  text-decoration: underline;
   font-weight: bold;
 }
 
@@ -31,8 +54,24 @@ h2{
   font-style: italic;
   color: red;
 }
-h2:hover{
-  font-size: xx-large;
-  border-radius: 0.8%
-  font-style:normal;
+
+h2>a{
+  text-decoration-line: none;:
+}
+h2>a:hover{
+  box-shadow: 5px;
+  background-color: coral;
+}
+p>a{
+  text-decoration-line: none;
+}
+.email{
+  position:relative;
+  left: 49%;
+  widht:auto;
+  height:100%;
+}
+
+.form{
+
 }
