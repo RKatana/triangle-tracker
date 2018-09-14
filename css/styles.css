@@ -2,5 +2,10 @@ body{
   background-image: url("download.jpeg");
   background-repeat:no-repeat;
   background-size: cover;
-
+  margin-left: 50px solid white;
+  margin-right:50px solid white;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-right: 50px solid white;
+  border-left: 50px solid white;
 }
