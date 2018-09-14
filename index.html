@@ -38,16 +38,13 @@
               <!-- <p><span>Scalene triangle.</span></p> -->
 
               <form>
-                <input type="text" name="number1" placeholder="Enter side 1">
-                <input type="text" name="number2" placeholder="Enter side 2">
-                <input type="text" name="number3" placeholder="Enter side 3">
-                <input type="button" value="submit" onclick="result">
+                <input type="number" name="number1" placeholder="Enter side" id="side1">
+                <input type="number" name="number2" placeholder="Enter side 2" id="side2">
+                <input type="number" name="number3" placeholder="Enter side 3" id="side3">
+                <input type="button" value="Check" onclick="result()">
+                <p id="answer"></p>
               </form>
         </div>
-        <script type="text/javascript" href="js/scripts.js">
-          // alert("Hello! Check your triangle");
-          // alert(<img src="download.png">);
-        </script>
 
         <div id="about">
           <h2>About</h2>
@@ -80,5 +77,5 @@
       </div>
     </div>
   </body>
-  <script type="text/javascript" src="js/scripts.js"></script><
+  <script type="text/javascript" src="js/scripts.js"></script>
 </html>
