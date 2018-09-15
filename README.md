@@ -19,7 +19,7 @@ It's therefore an a must have app for your child.
 * Internet connection
 
 ### Link to gh-pages:
-
+* https://rkatana.github.io/triangle-tracker/
 
 ### License:
 
