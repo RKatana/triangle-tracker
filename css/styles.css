@@ -8,23 +8,30 @@ body{
   padding-right: 50px;
   border-right: 50px solid white;
   border-left: 50px solid white;
-  align-items: center: center;
+  align-items: center;
   font-size: xx-large;
   color:white;
   justify-content: center;
   display: flex;
+  width:auto;
+  height:100%;
 }
 .overlay{
   /*text-align:center;*/
 }
+.email>p{
+  background-color: maroon;
+  border-right: 100px;
+}
 nav>ul{
   /*float: right;*/
-  justify-content: right;positon: relative;
-  left:80%;
+  text-align: right;
+  top:0px;
+  right:5%;
 }
 nav>ul>li{
   display: inline-block;
-  padding: 10px lime;
+  /*padding: 10px;*/
   border:3px solid yellow;
 }
 
@@ -34,6 +41,13 @@ nav>ul>li>a{
 }
 nav>ul>li>a:hover{
   background-color: lime;
+}
+#answer{
+  color: yellow;
+  text-decoration: underline;
+  /*background-color: white;*/
+  font-family: fantasy;
+  font-weight: bold;
 }
 
 h1{
@@ -64,12 +78,25 @@ p>a{
   text-decoration-line: none;
 }
 .email{
+  /*border-right: 100px;*/
   position: relative;
   left:2.5%;
 }
+.button{
+  background-color:coral;
+  color: white;
+}
+.button1{
+  background-color: coral;
+
+}
+.button2{
+  background-color: white;
+  color:red
+}
 
 .form{
-
+  display: inline-block;
 }
 img{
   padding-left: 40px;
@@ -79,4 +106,14 @@ img{
 footer{
   text-align: center;
   /*display:inline-block;*/
+}
+@media only screen and (max-width: 480px){
+  body{
+    color: yellow;
+  }
+  img{
+    display:flex;
+    padding: 20px;
+    justify-content:center;
+  }
 }
