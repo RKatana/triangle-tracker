@@ -28,6 +28,7 @@ It's a really useful app to the junior learners and and a beautifull tool for fu
 * Internet connection
 
 ### Link to the app:
+https://rkatana.github.io/triangle-tracker/
 
 ### License:
 
