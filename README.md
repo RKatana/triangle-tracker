@@ -4,9 +4,7 @@
 Raphael Katana
 
 ### Description:
- Triangle tracker is a mathematical solution based website with the ability to calculate the three sides of a triangle and show the type of a triangle the values can make or whether the values can't make a triangle at all.
-It is very simple to use; all you need is to type in the values and and get instant results.
-It's therefore an a must have app for your child.
+Leap year detector is a cool app with the super ability to check whether a certain year was a leap year or not. A nd gives the user instant results.
 
 ### Languages used:
 * HTML
