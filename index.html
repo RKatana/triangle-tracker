@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" width="device-width" initial=1.0>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="overlay">
+      <div id="banner">
+        <nav class="banner">
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#other">MORE</a></li>
+            <li><a href="#contacts">HELP DESK</a></li>
+          </ul>
+        </nav>
+
+        <div class="email">
+          <form>
+            <input type="email" placeholder="Enter Email...">
+            <button class="button" type="submit">Subcribe</button>
+          </form>
+          <p>Subscribe here to receive our newsletter.</p>
+        </div>
+
+        <div id="home">
+          <h1>Triangle Tracker</h1>
+            <p>This a programme that allow you to insert three diffent values for the different sides of a triangle and pops the type of the triangle the three values can make.</p>
+            <img src="download.png" alt="an equilateral triangle" height="200" width=300>
+              <!-- <span>Equilateral triangle.</span> -->
+            <img src="download1.png" alt="an isosceles triangle" height="200" width=300>
+              <!-- <span>Isosceles triangle.</span> -->
+            <img src="download2).png" alt="a scalene triangle" height="200" width=300>
+              <!-- <span>Scalene triangle.</span> -->
+              <br></br>
+
+              <form class="form">
+                <input type="number" name="number1" placeholder="Enter side 1" id="side1">
+                <input type="number" name="number2" placeholder="Enter side 2" id="side2">
+                <input type="number" name="number3" placeholder="Enter side 3" id="side3">
+                <input class="button1" type="button" value="Check" onclick="result()">
+                <input class="button2" type="button" value="Refresh" onclick="reset()">
+                <br></br>
+                <em><p id="answer"></p></em>
+              </form>
+        </div>
+
+        <div id="about">
+          <h2>About</h2>
+            <p>Triangle tracker is an ideal tool for all learners in primary school levels.</p>
+            <p>It's purpose is to make work easier and and to improve mastery skills to our pupils</p>
+            <p>And beyond learning we do understand the needs of kids, therefore ensuring that they get fun in even amidst the learning process</p>
+            <p><span>Why choose us:</span>
+              <ul>
+                <li>We assure you of Quality results.</li>
+                <li>Free services.</li>
+                <li>Excellent help desk</li>
+              </ul>
+          </p>
+        </div>
+
+        <div id="other">
+          <h2>Made of More</h2>
+            <p>We are made of more, and just under one roof we get you sorted!</p>
+            <p>You may also like to check on our leap year detector.</p>
+
+          <h2><a href="leap-year-detector/index1.html">Leap Year Detector</a></h2>
+            <p>You wan't to know which year was a leap year?</p>
+            <p><a href="leap-year-detector/index1.html">Click</a> here to check.</p>
+        </div>
+
+        <div id="contacts">
+          <h2>Help Desk.</h2>
+          <p>We are glad to help you. Feel free to contact our team.</p>
+          <p>E-mail:<a href="https://mail.google.com/mail/">roduor41@gmail.com</a></p>
+          <p>twitter:<a href="https://twitter.com/roduor41">@roduor41</a></p>
+        </div>
+      </div>
+      <footer>
+        <p>All Rights reserved;</p>
+        <p>Copyright 2018 Rkatana.Inc</p>
+    </footer>
+    </div>
+  </body>
+  <script type="text/javascript" src="./js/scripts.js"></script>
+</html>
