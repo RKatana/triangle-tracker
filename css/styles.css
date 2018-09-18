@@ -95,8 +95,11 @@ p>a{
   color:red
 }
 
-.form{
-  display: inline-block;
+.form>p{
+  /* display: inline-block; */
+  justify-content: center;
+  position:relative;
+  /* left: 30% */
 }
 img{
   padding-left: 40px;
